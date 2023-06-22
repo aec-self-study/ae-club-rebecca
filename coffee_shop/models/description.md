@@ -1,6 +1,0 @@
-{% docs __overview__ %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut orci a mi molestie porta. Nunc dictum urna ut lacinia sagittis. Aliquam maximus vehicula eros. Nulla nec orci metus. Quisque tristique lacus nec diam venenatis venenatis. Duis blandit turpis at quam vulputate, sit amet dignissim nulla consectetur. Donec interdum dolor viverra, vulputate nulla quis, viverra libero. Curabitur eu lorem ex. Vestibulum nec erat viverra, interdum massa sed, hendrerit ante. Mauris sollicitudin odio sapien, quis sagittis libero egestas vitae.
-
-Quisque enim massa, ornare non ipsum nec, suscipit pellentesque ligula. Curabitur leo lectus, condimentum eu lacinia in, pellentesque eu felis. Nunc lacinia risus mattis, ultrices felis in, sodales lorem. Sed quis justo augue. Cras venenatis blandit purus sit amet tincidunt. Curabitur lobortis posuere mattis. Donec et venenatis enim, sit amet dapibus ipsum. Curabitur tincidunt urna nec odio gravida finibus. In at justo in elit tempor vulputate.
-
-{% enddocs %}
