@@ -25,6 +25,7 @@ select
     order_items.order_item_id,
     order_items.product_id,
     order_items.order_id,
+    orders.customer_id,
     products.category as product_category,
     product_prices.price,
     orders.created_at as purchase_at,
