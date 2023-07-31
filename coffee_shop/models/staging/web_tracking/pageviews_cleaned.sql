@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized = "table",
+    cluster_by = ["customer_id", "visitor_id"],
+  )
+}}
+
+
 with pageviews as (
     select * from {{ source('web_tracking', 'pageviews') }}
 ),
