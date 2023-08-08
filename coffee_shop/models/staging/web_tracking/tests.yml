@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: visitors
+  - name: int_visitors
     description: one record per visitor id with their eventual customer_id
     columns:
       - name: visitor_id

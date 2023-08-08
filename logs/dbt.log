@@ -53,3 +53,69 @@ Happy modeling!
 
 [0m23:24:28.365468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5dde6cded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ddc2aa320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ddc2aa6b0>]}
 [0m23:24:28.365829 [debug] [MainThread]: Flushing usage events
+[0m17:28:30.871210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb734ea560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb71945ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb71945fc0>]}
+
+
+============================== 17:28:30.899500 | 4c61b96c-c31f-4c1e-a71c-7389380f935f ==============================
+[0m17:28:30.899500 [info ] [MainThread]: Running with dbt=1.6.0
+[0m17:28:30.900293 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:28:44.386023 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:28:44.390554 [info ] [MainThread]: 
+Your new dbt project "coffee_shop_rebecca" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:28:44.396227 [info ] [MainThread]: Setting up your profile.
+[0m17:29:24.747745 [info ] [MainThread]: Profile coffee_shop_rebecca written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:29:24.748868 [debug] [MainThread]: Command `dbt init` succeeded at 17:29:24.748713 after 53.88 seconds
+[0m17:29:24.749396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb734ea560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb6fe5d2a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffb6fe5e0e0>]}
+[0m17:29:24.750201 [debug] [MainThread]: Flushing usage events
+[0m17:31:44.771167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c880824d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c8709c730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c8709c8b0>]}
+
+
+============================== 17:31:44.775692 | dc304da6-abd6-4ff6-9f28-5eeee43e4225 ==============================
+[0m17:31:44.775692 [info ] [MainThread]: Running with dbt=1.6.0
+[0m17:31:44.776538 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:31:49.585472 [info ] [MainThread]: A project called coffee_shop already exists here.
+[0m17:31:49.586774 [debug] [MainThread]: Command `dbt init` succeeded at 17:31:49.586522 after 4.85 seconds
+[0m17:31:49.587336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c880824d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c876db400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c87702410>]}
+[0m17:31:49.588066 [debug] [MainThread]: Flushing usage events
+[0m17:32:03.191887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3782f8a530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3781fafb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3781fafb20>]}
+
+
+============================== 17:32:03.195805 | face3e82-a756-41a0-8ac8-dd186335905b ==============================
+[0m17:32:03.195805 [info ] [MainThread]: Running with dbt=1.6.0
+[0m17:32:03.196648 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:32:05.500927 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:32:05.505397 [info ] [MainThread]: 
+Your new dbt project "coffee" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:32:05.506104 [info ] [MainThread]: Setting up your profile.
+[0m17:32:38.513426 [info ] [MainThread]: Profile coffee written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:32:38.514625 [debug] [MainThread]: Command `dbt init` succeeded at 17:32:38.514462 after 35.35 seconds
+[0m17:32:38.515188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3782f8a530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f377fb45b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f377fb45a20>]}
+[0m17:32:38.516047 [debug] [MainThread]: Flushing usage events
