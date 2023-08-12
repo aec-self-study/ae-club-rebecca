@@ -45,7 +45,7 @@ select
     left join orders
         on order_items.order_id = orders.order_id
     
-    left join product_prices
+    inner join product_prices
         on order_items.product_id = product_prices.product_id
         and orders.created_at between product_prices.started_at and product_prices.ended_at
     

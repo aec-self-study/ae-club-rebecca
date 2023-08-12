@@ -31,3 +31,8 @@ sources:
           tests: 
             - unique
             - not_null
+- name: advanced_dbt_examples
+  database: analytics-engineers-club
+  schema: advanced_dbt_examples
+  tables:
+      - name: form_events
