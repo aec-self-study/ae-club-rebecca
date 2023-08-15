@@ -36,3 +36,4 @@ sources:
   schema: advanced_dbt_examples
   tables:
       - name: form_events
+      - name: favorite_ice_cream_flavors
